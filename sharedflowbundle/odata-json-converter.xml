@@ -1,0 +1,16 @@
+<SharedFlowBundle revision="1" name="odata-json-converter">
+    <DisplayName></DisplayName>
+    <Description>This flow converts verbose OData into clean, RESTful JSON resources.</Description>
+    <CreatedAt>1626156697158</CreatedAt>
+    <LastModifiedAt>1626157177026</LastModifiedAt>
+    <Policies>
+        <Policy>convert-odata</Policy>
+    </Policies>
+    <Resources>
+        <Resource>jsc://convert-odata.js</Resource>
+    </Resources>
+    <SharedFlows>
+        <SharedFlow>default</SharedFlow>
+    </SharedFlows>
+    <subType>SharedFlow</subType>
+</SharedFlowBundle>
